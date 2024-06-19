@@ -183,6 +183,17 @@ public class DataUtility {
 		return timeStamp;
 
 	}
+	
+	public static String getDouble(Double val) {
+		if (val>0) {
+			return ""+val;
+			
+		} else {
+			return "";
+		}
+		
+		
+	}
 
 	/**
 	 * convert timestamp timestamp to long
