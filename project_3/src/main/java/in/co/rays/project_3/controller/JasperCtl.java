@@ -1,16 +1,14 @@
-/
-/**
- * Jasper functionality Controller. Performs operation for Print pdf of
- * MarksheetMeriteList
- * @author Mahi Singh
- *
- */
-@WebServlet(name = "JasperCtl", urlPatterns = { "/ctl/JasperCtl" })
+// /
+// /**
+//  * Jasper functionality Controller. Performs operation for Print pdf of
+//  * MarksheetMeriteList
+//  * @author Mahi Singh
+//  *
+//  */
+//@WebServlet(name = "JasperCtl", urlPatterns = { "/ctl/JasperCtl" })
 //public class JasperCtl extends BaseCtl {
 
-	/**
-	 * 
-	 */
+	
 //	private static final long serialVersionUID = 1L;
 //
 //	@Override
