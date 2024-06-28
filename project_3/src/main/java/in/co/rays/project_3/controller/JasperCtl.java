@@ -1,7 +1,4 @@
-package in.co.rays.project_3.controller;
-
-import javax.servlet.annotation.WebServlet;
-
+/
 /**
  * Jasper functionality Controller. Performs operation for Print pdf of
  * MarksheetMeriteList
@@ -9,7 +6,7 @@ import javax.servlet.annotation.WebServlet;
  *
  */
 @WebServlet(name = "JasperCtl", urlPatterns = { "/ctl/JasperCtl" })
-public class JasperCtl extends BaseCtl {
+//public class JasperCtl extends BaseCtl {
 
 	/**
 	 * 
@@ -66,9 +63,4 @@ public class JasperCtl extends BaseCtl {
 //
 //	}
 //
-	@Override
-	protected String getView() {
-		return null;
-	}
-
-}
+/
