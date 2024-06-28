@@ -45,6 +45,10 @@ public interface ORSView {
 	public String CLIENT_LIST_VIEW = PAGE_FOLDER + "/ClientListView.jsp";
 	public String CLIENT_VIEW = PAGE_FOLDER + "/ClientView.jsp";
 	
+	public String ORDER_LIST_VIEW = PAGE_FOLDER + "/OrderListView.jsp";
+	public String ORDER_VIEW = PAGE_FOLDER + "/OrderView.jsp";
+	
+	
 	
 	
 
@@ -79,6 +83,10 @@ public interface ORSView {
 	
 	public String CLIENT_CTL = APP_CONTEXT + "/ctl/ClientCtl";
 	public String CLIENT_LIST_CTL = APP_CONTEXT + "/ctl/ClientListCtl";
+	
+	public String ORDER_CTL = APP_CONTEXT + "/ctl/OrderCtl";
+	public String ORDER_LIST_CTL = APP_CONTEXT + "/ctl/OrderListCtl";
+	
 	
 	
 	

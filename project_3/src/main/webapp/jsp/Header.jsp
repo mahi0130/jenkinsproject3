@@ -106,6 +106,22 @@
 							class="fas fa-user-friends"></i>Job List</a>
 					</div></li>
 					
+						<li class="nav-item dropdown" style="padding-left: 5px;"><a
+					class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+					role="button" data-toggle="dropdown" aria-haspopup="true"
+					aria-expanded="false"> <font style="color: Black;">ORDER</font>
+				</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="<%=ORSView.ORDER_CTL%>"> <i
+							class="fas fa-user-circle"></i>Add Order
+						</a> <a class="dropdown-item" href="<%=ORSView.ORDER_LIST_CTL%>"><i
+							class="fas fa-user-friends"></i>Order List</a>
+					</div></li>
+					
+					
+					
+					
+					
 					
 					<li class="nav-item dropdown" style="padding-left: 5px;"><a
 					class="nav-link dropdown-toggle" href="#" id="navbarDropdown"

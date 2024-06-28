@@ -176,17 +176,7 @@ public final class ModelFactory {
 		return JobModel;
 	}
 	
-	public ShopModelInt getShopModel() {
-		ShopModelInt ShopModel = (ShopModelInt) modelCache.get("ShopModel");
-		if (ShopModel == null) {
-			if ("Hibernate".equals(DATABASE)) {
-				ShopModel = new ShopModelHibImp();
-			}
-			modelCache.put("ShopModel", ShopModel);
-		}
-
-		return ShopModel;
-	}
+	
 	
 	
 	public ClientModelInt getClientModel() {
@@ -202,5 +192,17 @@ public final class ModelFactory {
 		}
 		return clientModel;
 	}
+	
+	public OrderModelInt getOrderModel() {
+		OrderModelInt orderModel = (OrderModelInt) modelCache.get("orderModel");
+		if (orderModel == null) {
+			if ("Hibernate".equals(DATABASE)) {
+				orderModel = new OrderModelHibImpl();
+			}
+			modelCache.put("orderModel", orderModel);
+		}
+		return orderModel;
+	}
+	
 	
 }
