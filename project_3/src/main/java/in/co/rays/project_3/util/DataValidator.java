@@ -31,6 +31,8 @@ public class DataValidator {
 	 * @param val
 	 * @return
 	 */
+	
+	
 	public static boolean isPasswordLength(String val) {
 
 		if (isNotNull(val) && val.length() >= 8 && val.length() <= 12) {
@@ -39,6 +41,34 @@ public class DataValidator {
 			return false;
 		}
 	}
+	
+	public static boolean isNamemaxlegntten(String name) {
+
+		String namereg ="^.{0,30}$";
+
+		// String sname = name.trim();
+
+		if (isNotNull(name) && name.matches(namereg)) {
+
+			return true;
+		} else {
+			return false;
+		}
+	}
+	public static boolean isNamemaxlegntfifty(String name) {
+
+		String namereg ="^.{0,200}$";
+
+		// String sname = name.trim();
+
+		if (isNotNull(name) && name.matches(namereg)) {
+
+			return true;
+		} else {
+			return false;
+		}
+	}
+
 
 	/*
 	 * public static boolean isValidAge(String val) {
@@ -263,6 +293,14 @@ public class DataValidator {
 		} else {
 			return false;
 		}
+	}
+	
+	public static boolean isTooLong(String val, int maxLength) {
+	    if (isNotNull(val)) {
+	        return val.length() > maxLength;
+	    } else {
+	        return false;
+	    }
 	}
 
 	/**

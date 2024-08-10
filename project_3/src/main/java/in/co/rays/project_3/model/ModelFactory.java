@@ -164,18 +164,20 @@ public final class ModelFactory {
 		return facultyModel;
 	}
 
-	public JobModelInt getJobModel() {
-		JobModelInt JobModel = (JobModelInt) modelCache.get("JobModel");
-		if (JobModel == null) {
+	public IssueModelInt getIssueModel() {
+
+		IssueModelInt issueModel = (IssueModelInt) modelCache.get("issuelModel");
+		if (issueModel == null) {
 			if ("Hibernate".equals(DATABASE)) {
-				JobModel = new JobModelHibImp();
+				issueModel = new IssueModelHib();
 			}
-			modelCache.put("JObModel", JobModel);
+			
+			modelCache.put("issueNodel", issueModel);
 		}
 
-		return JobModel;
+		return issueModel;
 	}
-	
+		
 	
 	
 	
@@ -203,6 +205,80 @@ public final class ModelFactory {
 		}
 		return orderModel;
 	}
+	
+	
+	
+	
+	
+	public VehicleTrackingModelInt getVehicleTrackingModel() {
+		VehicleTrackingModelInt vehicleTrackingModel = (VehicleTrackingModelInt) modelCache.get("vehicleTrackingModel");
+		if (vehicleTrackingModel == null) {
+			if ("Hibernate".equals(DATABASE)) {
+				vehicleTrackingModel = new VehicleTrackingModelHibImp();
+			}
+			modelCache.put("vehicleTrackingModel", vehicleTrackingModel);
+		}
+		return vehicleTrackingModel;
+	}
+	
+	public WishModelInt getWishModel() {
+		WishModelInt wishModel = (WishModelInt) modelCache.get("wishModel");
+		if (wishModel == null) {
+			if ("Hibernate".equals(DATABASE)) {
+				wishModel = new WishModelHibImp();
+			}
+			if ("JDBC".equals(DATABASE)) {
+				wishModel = new WishModelHibImp();
+			}
+			modelCache.put("wishModel", wishModel);
+		}
+		return wishModel;
+	}
+	public JobModelInt getJobModel() {
+		JobModelInt jobModel = (JobModelInt) modelCache.get("jobModel");
+		if (jobModel == null) {
+			if ("Hibernate".equals(DATABASE)) {
+				jobModel = new JobModelHibImpl();
+			}
+			if ("JDBC".equals(DATABASE)) {
+				jobModel = new JobModelHibImpl();
+			}
+			modelCache.put("jobModel", jobModel);
+		}
+		return jobModel;
+	}
+
+	
+	public ShoppingModelInt getShoppingModel() {
+		ShoppingModelInt shoppingModel = (ShoppingModelInt) modelCache.get("shoppingModel");
+		if (shoppingModel == null) {
+			if ("Hibernate".equals(DATABASE)) {
+				shoppingModel = new ShoppingModelHibImp();
+			}
+			if ("JDBC".equals(DATABASE)) {
+				shoppingModel = new ShoppingModelHibImp();
+			}
+			modelCache.put("shoppingModel", shoppingModel);
+		}
+
+		return shoppingModel;
+	}
+	
+	public TransactionModelInt getTransactionModel() {
+
+		TransactionModelInt transactionModel = (TransactionModelInt) modelCache.get("transactionModel");
+		if (transactionModel == null) {
+			if ("Hibernate".equals(DATABASE)) {
+				transactionModel = new TransactionModelHibImp();
+			}
+			
+			modelCache.put("transactionModel", transactionModel);
+		}
+
+		return transactionModel;
+	}
+	
+
 	
 	
 }

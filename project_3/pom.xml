@@ -66,12 +66,12 @@
 			<artifactId>hibernate-commons-annotations</artifactId>
 			<version>5.1.1.Final</version>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/net.sf.jasperreports/jasperreports -->
+				<!-- https://mvnrepository.com/artifact/net.sf.jasperreports/jasperreports -->
 		 <dependency>
 			<groupId>net.sf.jasperreports</groupId>
 			<artifactId>jasperreports</artifactId>
 			<version>6.13.0</version>
-		</dependency>
+		</dependency> 
 
 		<dependency>
 			<groupId>org.apache.maven.plugins</groupId>

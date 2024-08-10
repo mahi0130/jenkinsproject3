@@ -173,6 +173,7 @@ padding-bottom: 11px;
 	<span style="color: red;">*</span></span> </br>							
 	<div class="col-sm-12">
       <div class="input-group">
+      
         <div class="input-group-prepend">
           <div class="input-group-text"><i class="fa fa-envelope grey-text" style="font-size: 1rem;"></i> </div>
         </div>
@@ -184,7 +185,9 @@ padding-bottom: 11px;
 	<span class="pl-sm-5"><b>Mobile No</b>
 	<span style="color: red;">*</span></span> </br>
 	<div class="col-sm-12">
+	
       <div class="input-group">
+      
         <div class="input-group-prepend">
           <div class="input-group-text"><i class="fa fa-phone-square grey-text" style="font-size: 1rem;"></i> </div>
         </div>

@@ -39,8 +39,8 @@ public interface ORSView {
 	public String SUBJECT_VIEW = PAGE_FOLDER + "/SubjectView.jsp";
 	public String SUBJECT_LIST_VIEW = PAGE_FOLDER + "/SubjectListView.jsp";
 	
-	public String JOB_VIEW = PAGE_FOLDER + "/JobView.jsp";
-	public String JOB_LIST_VIEW = PAGE_FOLDER + "/JobListView.jsp";
+	public String ISSUE_VIEW = PAGE_FOLDER + "/IssueView.jsp";
+	public String ISSUE_LIST_VIEW = PAGE_FOLDER + "/IssueListView.jsp";
 	
 	public String CLIENT_LIST_VIEW = PAGE_FOLDER + "/ClientListView.jsp";
 	public String CLIENT_VIEW = PAGE_FOLDER + "/ClientView.jsp";
@@ -49,7 +49,32 @@ public interface ORSView {
 	public String ORDER_VIEW = PAGE_FOLDER + "/OrderView.jsp";
 	
 	
+	public String TRANSACTION_VIEW = PAGE_FOLDER + "/TransactionView.jsp";
+	public String TRANSACTION_LIST_VIEW = PAGE_FOLDER + "/TransactionListView.jsp";
+	public String TRANSACTION_CTL = APP_CONTEXT + "/ctl/TransactionCtl";
+	public String TRANSACTION_LIST_CTL = APP_CONTEXT + "/ctl/TransactionListCtl";
 	
+	
+	public String WISH_LIST_VIEW = PAGE_FOLDER + "/WishListView.jsp";
+	public String WISH_VIEW = PAGE_FOLDER + "/WishView.jsp";
+	
+	
+	public String SHOPPING_VIEW = PAGE_FOLDER + "/ShoppingView.jsp";
+	public String SHOPPING_CTL = APP_CONTEXT + "/ctl/ShoppingCtl";
+	public String SHOPPING_LIST_CTL = APP_CONTEXT + "/ctl/ShoppingListCtl";
+	public String SHOPPING_LIST_VIEW = PAGE_FOLDER + "/ShoppingListView.jsp";
+
+
+	
+	public String VEHICLE_TRACKING_LIST_VIEW = PAGE_FOLDER + "/VehicleTrackingListView.jsp";
+	public String VEHICLE_TRACKING_VIEW = PAGE_FOLDER + "/VehicleTrackingView.jsp";
+	
+	public String JOB_LIST_VIEW = PAGE_FOLDER + "/JobListView.jsp";
+	public String JOB_VIEW = PAGE_FOLDER + "/JobView.jsp";
+
+	public String TRANSPORTATION_LIST_VIEW = PAGE_FOLDER + "/TransportationListView.jsp";
+	public String TRANSPORTATION_VIEW = PAGE_FOLDER + "/TransportationView.jsp";
+
 	
 
 	public String MARKSHEET_CTL = APP_CONTEXT + "/ctl/MarksheetCtl";
@@ -77,8 +102,8 @@ public interface ORSView {
 	public String TIMETABLE_CTL = APP_CONTEXT + "/ctl/TimeTableCtl";
 	public String TIMETABLE_LIST_CTL = APP_CONTEXT + "/ctl/TimeTableListCtl";
 	
-	public String JOB_CTL = APP_CONTEXT + "/ctl/JobCtl";
-	public String JOB_LIST_CTL = APP_CONTEXT + "/ctl/JobListCtl";
+	public String ISSUE_CTL = APP_CONTEXT + "/ctl/IssueCtl";
+	public String ISSUE_LIST_CTL = APP_CONTEXT + "/ctl/IssueListCtl";
 
 	
 	public String CLIENT_CTL = APP_CONTEXT + "/ctl/ClientCtl";
@@ -87,7 +112,17 @@ public interface ORSView {
 	public String ORDER_CTL = APP_CONTEXT + "/ctl/OrderCtl";
 	public String ORDER_LIST_CTL = APP_CONTEXT + "/ctl/OrderListCtl";
 	
+	public String WISH_CTL = APP_CONTEXT + "/ctl/WishCtl";
+	public String WISH_LIST_CTL = APP_CONTEXT + "/ctl/WishListCtl";
 	
+	public String VEHICLE_TRACKING_CTL = APP_CONTEXT + "/ctl/VehicleTrackingCtl";
+	public String VEHICLE_TRACKING_LIST_CTL = APP_CONTEXT + "/ctl/VehicleTrackingListCtl";
+
+	public String JOB_CTL = APP_CONTEXT + "/ctl/JobCtl";
+	public String JOB_LIST_CTL = APP_CONTEXT + "/ctl/JobListCtl";
+	
+	public String TRANSPORTATION_CTL = APP_CONTEXT + "/ctl/TransportationCtl";
+	public String TRANSPORTATION_LIST_CTL = APP_CONTEXT + "/ctl/TransportationListCtl";
 	
 	
 	public String GET_MARKSHEET_CTL = APP_CONTEXT + "/ctl/GetMarksheetCtl";

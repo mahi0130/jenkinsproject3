@@ -6,39 +6,17 @@ import in.co.rays.project_3.controller.BaseCtl;
 
 public class OrderDTO extends BaseDTO {
 	
-	private String CustomerName;
-	private long phoneNo;
-	private String address;
+	private long quantity;
 	private String product;
-	private double version;
+	private Date date;
 	private long amount;
-	
-	
-	
-	
 
-	public String getCustomerName() {
-		return CustomerName;
+	public long getQuantity() {
+		return quantity;
 	}
 
-	public void setCustomerName(String customerName) {
-		CustomerName = customerName;
-	}
-
-	public long getPhoneNo() {
-		return phoneNo;
-	}
-
-	public void setPhoneNo(long phoneNo) {
-		this.phoneNo = phoneNo;
-	}
-
-	public String getAddress() {
-		return address;
-	}
-
-	public void setAddress(String address) {
-		this.address = address;
+	public void setQuantity(long quantity) {
+		this.quantity = quantity;
 	}
 
 	public String getProduct() {
@@ -49,15 +27,13 @@ public class OrderDTO extends BaseDTO {
 		this.product = product;
 	}
 
-	public double getVersion() {
-		return version;
+	public Date getDate() {
+		return date;
 	}
 
-	public void setVersion(double version) {
-		this.version = version;
+	public void setDate(Date date) {
+		this.date = date;
 	}
-
-	
 
 	public long getAmount() {
 		return amount;
@@ -78,6 +54,9 @@ public class OrderDTO extends BaseDTO {
 		// TODO Auto-generated method stub
 		return null;
 	}
+	
+	
+	
 	
 	
 }

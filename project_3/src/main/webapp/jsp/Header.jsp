@@ -93,11 +93,81 @@
 					} else if (userDto.getRoleId() == RoleDTO.ADMIN || userDto.getRoleId() == RoleDTO.COLLEGE_SCHOOL) {
 				%>
 								
-					
-				<li class="nav-item dropdown" style="padding-left: 5px;"><a
+					<%-- 
+				 <li class="nav-item dropdown" style="padding-left: 5px;"><a
 					class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
 					role="button" data-toggle="dropdown" aria-haspopup="true"
-					aria-expanded="false"> <font style="color: Black;">JOB</font>
+					aria-expanded="false"> <font style="color: Black;">Issue</font>
+				</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="<%=ORSView.ISSUE_CTL%>"> <i
+							class="fas fa-user-circle"></i>Add Issue
+						</a> <a class="dropdown-item" href="<%=ORSView.ISSUE_LIST_CTL%>"><i
+							class="fas fa-user-friends"></i>Issue List</a>
+					</div></li>
+					
+					  <li class="nav-item dropdown" style="padding-left: 5px;"><a
+					class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+					role="button" data-toggle="dropdown" aria-haspopup="true"
+					aria-expanded="false"> <font style="color: Black;">Shopping Cart</font>
+				</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="<%=ORSView.SHOPPING_CTL%>"> <i
+							class="fas fa-user-tie"></i>Add Shopping Cart
+						</a> <a class="dropdown-item" href="<%=ORSView.SHOPPING_LIST_CTL%>"><i
+							class="fas fa-university"></i>Shopping Cart List</a>
+					</div></li>  --%>
+					
+ 					
+						<%-- <li class="nav-item dropdown" style="padding-left: 5px;"><a
+					class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+					role="button" data-toggle="dropdown" aria-haspopup="true"
+					aria-expanded="false"> <font style="color: Black;">Order</font>
+				</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="<%=ORSView.ORDER_CTL%>"> <i
+							class="fas fa-user-circle"></i>Add Order
+						</a> <a class="dropdown-item" href="<%=ORSView.ORDER_LIST_CTL%>"><i
+							class="fas fa-user-friends"></i>Order List</a>
+					</div></li>
+					 --%>
+					<li class="nav-item dropdown" style="padding-left: 5px"><a
+					class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+					role="button" data-toggle="dropdown" aria-haspopup="true"
+					aria-expanded="false"> <font style="color: Black;">Transaction</font>
+
+				</a>
+
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+						<a class="dropdown-item" href="<%=ORSView.TRANSACTION_CTL%>"><i
+							class="fas fa-calculator"></i>Add Transaction</a> <a
+							class="dropdown-item" href="<%=ORSView.TRANSACTION_LIST_CTL%>">
+							<i class="fas fa-sort-amount-down"></i>Transactions List
+
+						</a>
+
+					</div></li>
+					 
+					 
+					 
+					<%--  	<li class="nav-item dropdown" style="padding-left: 5px;"><a
+					class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+					role="button" data-toggle="dropdown" aria-haspopup="true"
+					aria-expanded="false"> <font style="color: Black;">Wish</font>
+				</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="<%=ORSView.WISH_CTL%>"> <i
+							class="fas fa-user-circle"></i>Add Wish
+						</a> <a class="dropdown-item" href="<%=ORSView.WISH_LIST_CTL%>"><i
+							class="fas fa-user-friends"></i>Wish List</a>
+					</div></li>
+					
+					
+					 	<li class="nav-item dropdown" style="padding-left: 5px;"><a
+					class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+					role="button" data-toggle="dropdown" aria-haspopup="true"
+					aria-expanded="false"> <font style="color: Black;">Job</font>
 				</a>
 					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
 						<a class="dropdown-item" href="<%=ORSView.JOB_CTL%>"> <i
@@ -106,20 +176,21 @@
 							class="fas fa-user-friends"></i>Job List</a>
 					</div></li>
 					
-						<li class="nav-item dropdown" style="padding-left: 5px;"><a
+					
+					 
+					 <li class="nav-item dropdown" style="padding-left: 5px;"><a
 					class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
 					role="button" data-toggle="dropdown" aria-haspopup="true"
-					aria-expanded="false"> <font style="color: Black;">ORDER</font>
+					aria-expanded="false"> <font style="color: Black;">VehicleTracking</font>
 				</a>
 					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-						<a class="dropdown-item" href="<%=ORSView.ORDER_CTL%>"> <i
-							class="fas fa-user-circle"></i>Add Order
-						</a> <a class="dropdown-item" href="<%=ORSView.ORDER_LIST_CTL%>"><i
-							class="fas fa-user-friends"></i>Order List</a>
+						<a class="dropdown-item" href="<%=ORSView.VEHICLE_TRACKING_CTL%>"> <i
+							class="fas fa-user-circle"></i>Add VehicleTracking
+						</a> <a class="dropdown-item" href="<%=ORSView.VEHICLE_TRACKING_LIST_CTL%>"><i
+							class="fas fa-user-friends"></i>VehicleTracking List</a>
 					</div></li>
-					
-					
-					
+					 
+						
 					
 					
 					
@@ -135,7 +206,7 @@
 							class="fas fa-user-friends"></i>Client List</a>
 					</div></li> 
  	
-								 
+ 							  --%>
 					
 					
 					

@@ -13,7 +13,7 @@
     $( "#datepicker" ).datepicker({
       changeMonth: true,
       changeYear: true,
-      yearRange : '1972:2002',
+      yearRange : '1972:2024',
 		dateFormat : 'mm/dd/yy',
 		endDate : '-18y',
 			maxDate:0 

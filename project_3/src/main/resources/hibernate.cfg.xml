@@ -15,9 +15,9 @@
 
 		<property name="hibernate.connection.username">root</property>
 		<property name="hibernate.connection.password">root</property>
-		<!-- <property name="hibernate.connection.username">rays</property> <property 
-			name="hibernate.connection.password">indore@123</property> -->
-
+		  <!-- <property name="hibernate.connection.username">rays</property> <property 
+			name="hibernate.connection.password">indore@123</property>
+ -->
 		<property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
 
 		<property name="hbm2ddl.auto">update</property>
@@ -51,12 +51,17 @@
 			resource="in/co/rays/project_3/hbm/FacultyDTO.hbm.xml" />
 		<mapping
 			resource="in/co/rays/project_3/hbm/SubjectDTO.hbm.xml" />
-			
-			<mapping resource="in/co/rays/project_3/hbm/JobDTO.hbm.xml"/>
-			
-			
-			<mapping resource="in/co/rays/project_3/hbm/ClientDTO.hbm.xml"/>
 			<mapping resource="in/co/rays/project_3/hbm/OrderDTO.hbm.xml"/>
+			<mapping resource="in/co/rays/project_3/hbm/VehicleTrackingDTO.hbm.xml"/>
+			<mapping resource="in/co/rays/project_3/hbm/WishDTO.hbm.xml"/>
+			<mapping resource="in/co/rays/project_3/hbm/IssueDTO.hbm.xml"/>
+			<mapping resource="in/co/rays/project_3/hbm/JobDTO.hbm.xml"/>
+			<mapping resource="in/co/rays/project_3/hbm/ShoppingDTO.hbm.xml"/>
+			<mapping resource="in/co/rays/project_3/hbm/TransactionDTO.hbm.xml"/>
+			
+		
+			
+			
 			
 			
 		
